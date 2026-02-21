@@ -33,7 +33,7 @@ last_id = None
 total_packets = 0
 total_lost = 0
 
-print("🚀 Capture Daemon démarré (VERSION CORRIGÉE)")
+print("🚀 Capture Daemon démarré")
 print(f"📡 {PORT} @ {BAUD}")
 print(f"💾 Shared memory: {shm_size} bytes")
 print(f"📦 Frame size: {FRAME_SIZE} bytes\n")
