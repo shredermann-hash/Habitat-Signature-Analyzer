@@ -12,9 +12,9 @@ while true; do
         echo "$(date) - CRASH détecté, redémarrage..." >> $LOG
         
         cd /home/arduino/phisualizematrix
-        ./stop_spectrum.sh >> $LOG 2>&1
+        ./stop_phisualize.sh >> $LOG 2>&1
         sleep 3
-        ./start_spectrum.sh >> $LOG 2>&1
+        ./start_phisualize.sh >> $LOG 2>&1
         
         echo "$(date) - Système redémarré" >> $LOG
     fi
